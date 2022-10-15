@@ -1,0 +1,123 @@
+2022-08-07 17:15:14.175  INFO 15680 --- [main] com.vitalx.apizoo.ApiZooApplication      : Starting ApiZooApplication using Java 18.0.2 on DESKTOP-3UGNOB2 with PID 15680 (C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring\target\classes started by liamd in C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring)
+2022-08-07 17:15:14.182  INFO 15680 --- [main] com.vitalx.apizoo.ApiZooApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 17:15:16.168  INFO 15680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:15:16.181  INFO 15680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:15:16.182  INFO 15680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-07 17:15:16.376  INFO 15680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:15:16.376  INFO 15680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2125 ms
+2022-08-07 17:15:16.940  INFO 15680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-07 17:15:17.161  INFO 15680 --- [main] com.vitalx.apizoo.ApiZooApplication      : Started ApiZooApplication in 3.561 seconds (JVM running for 3.992)
+2022-08-07 17:15:17.164  INFO 15680 --- [main] com.vitalx.apizoo.ApiZooApplication      : 
+----------------------------------------------------------
+	Application 'ApiZoo' is running!
+	Access URLs:
+	Local: 		http://localhost:8080/swagger-ui/#/
+	
+----------------------------------------------------------
+2022-08-07 17:15:44.847  INFO 15680 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 17:15:44.847  INFO 15680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 17:15:44.848  INFO 15680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-07 17:15:54.225  INFO 15680 --- [http-nio-8080-exec-1] c.v.apizoo.controller.AnimalsController  : Called getAnimals
+2022-08-07 17:19:48.113  INFO 16104 --- [main] com.vitalx.apizoo.ApiZooApplication      : Starting ApiZooApplication using Java 18.0.2 on DESKTOP-3UGNOB2 with PID 16104 (C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring\target\classes started by liamd in C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring)
+2022-08-07 17:19:48.116  INFO 16104 --- [main] com.vitalx.apizoo.ApiZooApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 17:19:49.172  INFO 16104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:19:49.182  INFO 16104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:19:49.182  INFO 16104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-07 17:19:49.285  INFO 16104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:19:49.285  INFO 16104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1131 ms
+2022-08-07 17:19:49.773  INFO 16104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-07 17:19:49.953  INFO 16104 --- [main] com.vitalx.apizoo.ApiZooApplication      : Started ApiZooApplication in 2.224 seconds (JVM running for 2.57)
+2022-08-07 17:19:49.956  INFO 16104 --- [main] com.vitalx.apizoo.ApiZooApplication      : 
+----------------------------------------------------------
+	Application 'ApiZoo' is running!
+	Access URLs:
+	Local: 		http://localhost:8080/swagger-ui/#/
+	
+----------------------------------------------------------
+2022-08-07 17:20:01.749  INFO 16104 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 17:20:01.749  INFO 16104 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 17:20:01.750  INFO 16104 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-07 17:20:01.766  INFO 16104 --- [http-nio-8080-exec-1] c.v.apizoo.controller.AnimalsController  : Called getNbAnimals
+2022-08-07 17:21:37.108  INFO 16104 --- [http-nio-8080-exec-3] c.v.apizoo.controller.AnimalsController  : Called getAnimals
+2022-08-07 17:23:15.022  WARN 13024 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/liamd/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/liamd/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-08-07 17:23:15.037  INFO 13024 --- [main] c.vitalx.apizoo.ApiZooApplicationTests   : Starting ApiZooApplicationTests using Java 18.0.2 on DESKTOP-3UGNOB2 with PID 13024 (started by liamd in C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring)
+2022-08-07 17:23:15.037  INFO 13024 --- [main] c.vitalx.apizoo.ApiZooApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 17:23:16.860  INFO 13024 --- [main] c.vitalx.apizoo.ApiZooApplicationTests   : Started ApiZooApplicationTests in 2.082 seconds (JVM running for 2.88)
+2022-08-07 17:23:34.806  WARN 16352 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/liamd/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/liamd/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-08-07 17:23:34.820  INFO 16352 --- [main] c.vitalx.apizoo.ApiZooApplicationTests   : Starting ApiZooApplicationTests using Java 18.0.2 on DESKTOP-3UGNOB2 with PID 16352 (started by liamd in C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring)
+2022-08-07 17:23:34.821  INFO 16352 --- [main] c.vitalx.apizoo.ApiZooApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 17:23:36.634  INFO 16352 --- [main] c.vitalx.apizoo.ApiZooApplicationTests   : Started ApiZooApplicationTests in 2.069 seconds (JVM running for 2.9)
+2022-08-07 17:23:36.985 ERROR 16352 --- [main] c.v.apizoo.service.AnimalServiceImpl     : User unauthorized to create animal : [Animal(id=12, name=Cronos, age=20, type=Mammifères, nomEspece=Homme, sex=Male)]
+2022-08-07 17:23:36.989 ERROR 16352 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @GET - animalsByName Not Found 404 for name : Alfred
+2022-08-07 17:23:37.000  WARN 16352 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @PUT - updateAnimal Invalid Type (Reptile) , must be one of those [Mammifères, Oiseaux, Poissons] initialized by Unknow.
+2022-08-07 17:23:37.003 ERROR 16352 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @GET - animalsByType Not Found 404 for type : TEST
+2022-08-07 17:23:37.012 ERROR 16352 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @PUT - updateAnimal All fields must be completed
+2022-08-07 17:23:37.015 ERROR 16352 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @GET - animalsById Not Found 404 for Id : 222
+2022-08-07 17:23:37.018 ERROR 16352 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @DELETE - deleteAnimal Not Found 404 Id : 284
+2022-08-07 17:24:10.952  WARN 15612 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/liamd/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/liamd/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-08-07 17:24:10.965  INFO 15612 --- [main] c.vitalx.apizoo.ApiZooApplicationTests   : Starting ApiZooApplicationTests using Java 18.0.2 on DESKTOP-3UGNOB2 with PID 15612 (started by liamd in C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring)
+2022-08-07 17:24:10.965  INFO 15612 --- [main] c.vitalx.apizoo.ApiZooApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 17:24:12.790  INFO 15612 --- [main] c.vitalx.apizoo.ApiZooApplicationTests   : Started ApiZooApplicationTests in 2.053 seconds (JVM running for 2.843)
+2022-08-07 17:24:13.182 ERROR 15612 --- [main] c.v.apizoo.service.AnimalServiceImpl     : User unauthorized to create animal : [Animal(id=12, name=Cronos, age=20, type=Mammifères, nomEspece=Homme, sex=Male)]
+2022-08-07 17:24:13.186 ERROR 15612 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @GET - animalsByName Not Found 404 for name : Alfred
+2022-08-07 17:24:13.197  WARN 15612 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @PUT - updateAnimal Invalid Type (Reptile) , must be one of those [Mammifères, Oiseaux, Poissons] initialized by Unknow.
+2022-08-07 17:24:13.200 ERROR 15612 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @GET - animalsByType Not Found 404 for type : TEST
+2022-08-07 17:24:13.205 ERROR 15612 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @PUT - updateAnimal All fields must be completed
+2022-08-07 17:24:13.209 ERROR 15612 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @GET - animalsById Not Found 404 for Id : 222
+2022-08-07 17:24:13.212 ERROR 15612 --- [main] c.v.apizoo.service.AnimalServiceImpl     : @DELETE - deleteAnimal Not Found 404 Id : 284
+2022-08-07 17:24:22.311  INFO 2996 --- [main] com.vitalx.apizoo.ApiZooApplication      : Starting ApiZooApplication using Java 18.0.2 on DESKTOP-3UGNOB2 with PID 2996 (C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring\target\classes started by liamd in C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring)
+2022-08-07 17:24:22.314  INFO 2996 --- [main] com.vitalx.apizoo.ApiZooApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 17:24:23.231  INFO 2996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:24:23.240  INFO 2996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:24:23.240  INFO 2996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-07 17:24:23.325  INFO 2996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:24:23.325  INFO 2996 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 970 ms
+2022-08-07 17:24:23.816  INFO 2996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-07 17:24:24.010  INFO 2996 --- [main] com.vitalx.apizoo.ApiZooApplication      : Started ApiZooApplication in 2.03 seconds (JVM running for 2.344)
+2022-08-07 17:24:24.013  INFO 2996 --- [main] com.vitalx.apizoo.ApiZooApplication      : 
+----------------------------------------------------------
+	Application 'ApiZoo' is running!
+	Access URLs:
+	Local: 		http://localhost:8080/swagger-ui/#/
+	
+----------------------------------------------------------
+2022-08-07 17:25:19.140  INFO 8148 --- [main] com.vitalx.apizoo.ApiZooApplication      : Starting ApiZooApplication using Java 18.0.2 on DESKTOP-3UGNOB2 with PID 8148 (C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring\target\classes started by liamd in C:\Users\liamd\OneDrive\Bureau\Mes projets GitHub\api-zoo-spring)
+2022-08-07 17:25:19.142  INFO 8148 --- [main] com.vitalx.apizoo.ApiZooApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 17:25:20.069  INFO 8148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:25:20.076  INFO 8148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:25:20.077  INFO 8148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-07 17:25:20.166  INFO 8148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:25:20.166  INFO 8148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 973 ms
+2022-08-07 17:25:20.679  INFO 8148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-07 17:25:20.877  INFO 8148 --- [main] com.vitalx.apizoo.ApiZooApplication      : Started ApiZooApplication in 2.071 seconds (JVM running for 2.392)
+2022-08-07 17:25:20.879  INFO 8148 --- [main] com.vitalx.apizoo.ApiZooApplication      : 
+----------------------------------------------------------
+	Application 'ApiZoo' is running!
+	Access URLs:
+	Local: 		http://localhost:8080/swagger-ui/#/
+	
+----------------------------------------------------------
